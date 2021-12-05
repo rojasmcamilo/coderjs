@@ -68,17 +68,27 @@ nav{
     height: 84vh;
 }
 
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+    
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+    
+}
 
-.slider-container{
-    height: 38%;
-    margin-bottom: 5px;
+.slider-container {
     border-radius: 5px;
     box-shadow: 0px 0px 6px grey;
 }
 
 .slider-container div{
-    border-radius: 5px;
-    
+    border-radius: 5px; 
 }
 
 .service-category{
